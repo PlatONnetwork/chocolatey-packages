@@ -1,0 +1,19 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Package can be verified like this:
+
+1. Go to https://download.platon.network/0.3/, 
+
+   x64: https://download.platon.network/0.3/platon-windows-x86_64-0.3.0.zip
+
+   to download the zip files. You may wish to rename one of the files.
+
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+   - Use Windows utility 'certutil.exe'
+
+   checksum64: 347ECF1BA1247C103D4A75D96C18295257848BFD0540136C651B7C37F8855DAF
+
