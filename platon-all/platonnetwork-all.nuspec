@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>platonnetwork-all</id>
+    <version>0.5.0</version>
+    <owners>PlatON</owners>
+    <packageSourceUrl>https://github.com/PlatONnetwork/chocolatey-packages</packageSourceUrl>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>PlatON</title>
+    <authors>PlatON</authors>
+    <projectUrl>https://www.platon.network/</projectUrl>
+    <iconUrl>https://platonnetwork.github.io/Docs/assets/logo-b.png</iconUrl>
+    <copyright>COPYRIGHT © 2018 PLATON INTERNATIONAL LIMITED ALL RIGHTS RESERVED.</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/PlatONnetwork/platon-go</projectSourceUrl>
+    <docsUrl>https://github.com/platonnetwork/wiki/wiki</docsUrl>
+    <releaseNotes>https://github.com/PlatONnetwork/PlatON-Go/releases</releaseNotes>
+    <summary>PlatON is a trustless computing network built on cryptographic algorithms</summary>
+    <description>
+    More than a blockchain platform, PlatON introduces a trustless computing architecture to address scalability and privacy issues with advanced encryption algorithms including verifiable computing, homomorphic encryption, secure multiparty computing, and more. PlatON's technology allows the executing of more heavy, data-privacy smart contracts. For more information, please read the PlatON Technical White Paper.
+    </description>
+    <tags>blockchain scalibility privacy dapp smart contract consensus wasm pos bft mpc</tags>
+    <!-- =============================== -->
+
+    <dependencies>
+      <dependency id="golang" version="1.11" />
+      <dependency id="mingw" version="8.1" />
+      <dependency id="platonnetwork-mpclib" version="0.5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
