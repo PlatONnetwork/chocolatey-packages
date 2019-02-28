@@ -2,7 +2,7 @@
 
 $packageName  = 'platonnetwork'
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileLocation = Join-Path $toolsDir 'platon-windows-x86_64-0.4.0.zip'
+$fileLocation = Join-Path $toolsDir 'platon-windows-x86_64-0.5.0.zip'
 
 $packageArgs = @{
   packageName   = $packageName

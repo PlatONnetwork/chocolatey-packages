@@ -5,7 +5,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>platonnetwork</id>
-    <version>0.4.0</version>
+    <version>0.5.0</version>
     <owners>PlatON</owners>
     <packageSourceUrl>https://github.com/PlatONnetwork/chocolatey-packages</packageSourceUrl>
     <!-- ============================== -->
@@ -18,7 +18,7 @@
     <copyright>COPYRIGHT © 2018 PLATON INTERNATIONAL LIMITED ALL RIGHTS RESERVED.</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/platonnetwork/platon-go</projectSourceUrl>
+    <projectSourceUrl>https://github.com/PlatONnetwork/platon-go</projectSourceUrl>
     <docsUrl>https://github.com/platonnetwork/wiki/wiki</docsUrl>
     <releaseNotes>https://github.com/PlatONnetwork/PlatON-Go/releases</releaseNotes>
     <summary>PlatON is a trustless computing network built on cryptographic algorithms</summary>
@@ -29,8 +29,8 @@
     <!-- =============================== -->
 
     <dependencies>
-      <dependency id="golang" version="1.11.4" />
-      <dependency id="mingw" version="8.1.0" />
+      <dependency id="golang" version="1.11" />
+      <dependency id="mingw" version="8.1" />
     </dependencies>
   </metadata>
   <files>
